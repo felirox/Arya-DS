@@ -60,17 +60,24 @@ You can run the same code online via Google Colab without having to download or 
 
 The below graph presents the Accuracy, Precision, Recoil and Loss of both Training and Validation dataset
 
+<img width="521" alt="final-model metrics" src="https://user-images.githubusercontent.com/52323747/165163550-c65528f1-fbad-4dc7-be9d-a90c7ad92829.png">
+
 ## Model Predictions for Test Dataset
 
 The file containing the model predictions for the given test dataset can be found here. The output is saved in .txt format with the regular UTF-8 encoding.
 
 We have converted the Predicted Probabilities into Binary Class labels with a threshold of 0.7.
 
-### View the Prediction file here: [op.txt]()
+### View the Prediction file here: [op.txt](https://github.com/felirox/Arya-DS/blob/main/op-binary.txt)
 
-You can view the Actual Probabilities which have not been filtered by a threshold, [here.]()
+You can view the Actual Probabilities which have not been filtered by a threshold, [here.](https://github.com/felirox/Arya-DS/blob/main/op-raw.txt)
 
-<img width="521" alt="final-model metrics" src="https://user-images.githubusercontent.com/52323747/165163550-c65528f1-fbad-4dc7-be9d-a90c7ad92829.png">
+## Saved Model
+
+The models have been saved in three different formats under the [Trained Models](https://github.com/felirox/Arya-DS/tree/main/Trained%20Models) folder
+   - Keras h5 format
+   - ckpt (Tensorflow Checkpoint)
+   - TensorFlow SavedModel format
 
 ## Libraries and Dependencies
 
