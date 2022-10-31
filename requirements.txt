@@ -1,6 +1,6 @@
 gdown==4.4.0
 google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz
-h5py==3.1.0
+h5py
 importlib-metadata==4.11.3
 importlib-resources==5.7.1
 imutils==0.5.4
